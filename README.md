@@ -15,7 +15,7 @@ A lightweight, fully automated, and highly efficient incremental backup plugin f
 ## Installation
 Currently, you can install this plugin manually via the Unraid terminal:
 ```bash
-plugin install https://raw.githubusercontent.com/DEIN_GITHUB_NAME/unraid-incbackup-plugin/main/incbackup.plg
+plugin install https://raw.githubusercontent.com/Blacksoul87/unraid-incbackup-plugin/main/incbackup.plg
 ```
 *(Replace `DEIN_GITHUB_NAME` with your actual GitHub username once published!)*
 

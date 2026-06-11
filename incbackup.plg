@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="yes"?>
-<PLUGIN name="incbackup" author="Antigravity" version="2026.06.11-18" pluginURL="https://raw.githubusercontent.com/DEIN_GITHUB_NAME/unraid-incbackup-plugin/main/incbackup.plg" icon="https://raw.githubusercontent.com/DEIN_GITHUB_NAME/unraid-incbackup-plugin/main/icon.png">
+<PLUGIN name="incbackup" author="Antigravity" version="2026.06.11-18" pluginURL="https://raw.githubusercontent.com/Blacksoul87/unraid-incbackup-plugin/main/incbackup.plg" icon="https://raw.githubusercontent.com/Blacksoul87/unraid-incbackup-plugin/main/icon.png">
 
 <FILE Name="/boot/config/plugins/incbackup/incbackup.cfg">
 <INLINE>

@@ -530,7 +530,7 @@ php_b64 = base64.encodebytes(php_api.encode('utf-8')).decode('utf-8')
 log_b64 = base64.encodebytes(php_log.encode('utf-8')).decode('utf-8')
 
 plg_content = f"""<?xml version="1.0" standalone="yes"?>
-<PLUGIN name="incbackup" author="Antigravity" version="2026.06.11-18" pluginURL="https://raw.githubusercontent.com/DEIN_GITHUB_NAME/unraid-incbackup-plugin/main/incbackup.plg" icon="https://raw.githubusercontent.com/DEIN_GITHUB_NAME/unraid-incbackup-plugin/main/icon.png">
+<PLUGIN name="incbackup" author="Antigravity" version="2026.06.11-18" pluginURL="https://raw.githubusercontent.com/Blacksoul87/unraid-incbackup-plugin/main/incbackup.plg" icon="https://raw.githubusercontent.com/Blacksoul87/unraid-incbackup-plugin/main/icon.png">
 
 <FILE Name="/boot/config/plugins/incbackup/incbackup.cfg">
 <INLINE>
