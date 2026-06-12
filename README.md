@@ -8,6 +8,8 @@ A lightweight, fully automated, and highly efficient incremental backup plugin f
 - **Hardlink Efficiency**: Only changed files consume new disk space. Unchanged files are seamlessly linked to the previous backup, saving massive amounts of storage.
 - **Background Automation**: Reliable, independent Cron scheduling that runs in the background without blocking Unraid's operations or hanging your WebUI.
 - **AJAX Live Logging**: Watch your backups in real-time with an integrated, asynchronous log viewer right in the Unraid settings page.
+- **Dedicated Backup Logs**: Optionally configure a separate log directory to keep complete, permanent log files for every single backup run (`backup_YYYY-MM-DD.log`).
+- **Per-Path Notifications**: Get notified instantly in Unraid as soon as a source-destination pair finishes copying. If an error occurs, the notification directly includes the raw rsync error for quick troubleshooting.
 - **Smart Retention**: Automatically prunes older backups based on your custom retention limit.
 - **Custom Directory Picker**: Easily select source and destination paths via an integrated, fast directory browser.
 - **Disk Usage Validator**: A built-in feature to calculate the *true* storage usage of your backups (taking hardlinks into account, unlike Windows Explorer).
@@ -17,7 +19,6 @@ Currently, you can install this plugin manually via the Unraid terminal:
 ```bash
 plugin install https://raw.githubusercontent.com/Blacksoul87/unraid-incbackup-plugin/main/incbackup.plg
 ```
-*(Replace `DEIN_GITHUB_NAME` with your actual GitHub username once published!)*
 
 ## Configuration
 After installation, navigate to **Settings -> Incremental Backup** in your Unraid WebUI.
